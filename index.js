@@ -31,10 +31,10 @@ function logWhisper(string) {
 
 
 function sayHiToGrandma(string) {
-  if lowercase
+  if 'string' = lowercase
   console.log("I can't hear you!")
-else if uppercase
+else if string = uppercase
   console.log("YES INDEED!")
-  else if mixedCase
+  else if string = mixedCase
   console.log("I love you, too.")
 };
