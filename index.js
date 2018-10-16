@@ -18,8 +18,6 @@ function logWhisper(string) {
   console.log(string.toLowerCase())
 };
 
-sayHiToGrandma('HELLO!');
-
 
 function sayHiToGrandma(string) {
   if (string = lowercase)
