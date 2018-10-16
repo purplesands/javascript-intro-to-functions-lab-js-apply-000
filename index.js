@@ -1,3 +1,18 @@
+var uppercase = "HELLO!"
+
+uppercase.toUpperCase() === uppercase // true
+
+var lowercase = 'hello!'
+
+lowercase.toLowerCase() === lowercase // true
+
+var mixedCase = 'Hi there!'
+
+mixedCase.toLowerCase() === mixedCase // false
+
+mixedCase.toUpperCase() === mixedCase // false
+
+
 function shout(string) {
   return string.toUpperCase()
 };
@@ -14,11 +29,12 @@ function logWhisper(string) {
   console.log(string.toLowerCase())
 };
 
+
 function sayHiToGrandma(string) {
-  {if (shout(string))
-  console.log("I can't hear you!")}
-{else if (whisper(string))
-  console.log("YES INDEED!")}
-  {else if (string = 'I love you, too')
-  console.log("I love you, too.")}
+  if string = lowercase
+  console.log("I can't hear you!")
+else if string = uppercase
+  console.log("YES INDEED!")
+  else if string = mixedCase
+  console.log("I love you, too.")
 };
